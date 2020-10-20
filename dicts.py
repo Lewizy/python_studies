@@ -31,13 +31,15 @@ dictionaries_person = {
     "favorite tv line": "how bowt them grapples",
 }
 
+the_clear_method = dictionary.clear()
+
 the_popItem_method = dictionaries_person.popitem()
 addingValuesTo_dictionaries = dictionaries_person["hair color"] = "pink"
 #adding values
 the_pop_method = dictionaries_person.pop("petOwned")
 #removing values
 
-the_clear_method = dictionary.clear()
+the_update_method = dictionaries_person.update({"address":"tree-a-dem"})
 
 the_copy_method = dictionaries_person.copy()  #copy dicts
 the_copy_method2 = dict(dictionaries_person)  #copy dicts 2
@@ -47,6 +49,11 @@ the_popItem_method = dictionaries_person.popitem()
 
 del dictionaries_person["favoriteFood"]  #removes specified
 #del dictionaries_person  #deletes whole dicts
+
+fromKeys_dict = ("key1","key2","key3")
+fromkeys_value = 0
+the_from_keys_method = dict.fromkeys(fromKeys_dict,fromkeys_value)
+print(the_from_keys_method) # this method gives the same value to all keys
 
 print_dict_keys = dictionaries_person["age"]
 print(print_dict_keys)
@@ -77,7 +84,7 @@ print("The length is-->>>>>>>><<<", the_length_method)
 
 print(the_dict_constructor)
 
-fromKeys_dict = ("key1","key2","key3")
-fromkeys_value = 0
-the_from_keys_method = dict.fromkeys(fromKeys_dict,fromkeys_value)
-print(the_from_keys_method) # this method gives the same value to all keys
+print(dictionaries_person)
+
+print("####################################################################")
+
