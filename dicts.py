@@ -1,5 +1,6 @@
  ########################################dictionaries###################################################
 
+num = 10
 
 dictionary = {}
 dictionary["hi"] = "salute"
@@ -36,6 +37,10 @@ the_clear_method = dictionary.clear()
 the_popItem_method = dictionaries_person.popitem()
 addingValuesTo_dictionaries = dictionaries_person["hair color"] = "pink"
 #adding values
+
+updating_values_inDict = dictionaries_person["race"] = "celestial"
+#updated
+
 the_pop_method = dictionaries_person.pop("petOwned")
 #removing values
 
@@ -55,17 +60,12 @@ fromkeys_value = 0
 the_from_keys_method = dict.fromkeys(fromKeys_dict,fromkeys_value)
 print(the_from_keys_method) # this method gives the same value to all keys
 
-print_dict_keys = dictionaries_person["age"]
-print(print_dict_keys)
+print_dict_keys = dictionaries_person["age"] #33
 
-updating_values_inDict = dictionaries_person["race"] = "celestial"
-print(updating_values_inDict + "<--updated")
-
-the_get_method = dictionaries_person.get("Hair color")
-print(the_get_method)
+the_get_method = dictionaries_person.get("Hair color")# pink
 
 for print_all_keys in dictionaries_person:
-    print(print_all_keys)
+    print(print_all_keys+"<<<<<<<<<<<<")
 
 for print_all_values in dictionaries_person:
     print(dictionaries_person[print_all_values])
