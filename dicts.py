@@ -40,7 +40,7 @@ updating_values_inDict = dictionaries_person["race"] = "celestial"
 #updated
 
 the_pop_method = dictionaries_person.pop("petOwned")
-#removing values
+#removes specific values
 
 the_popItem_method = dictionaries_person.popitem()
 #removes last item, some versions only
