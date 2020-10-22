@@ -1,7 +1,5 @@
  ########################################dictionaries###################################################
 
-num = 10
-
 dictionary = {}
 dictionary["hi"] = "salute"
 print(dictionary)
@@ -44,16 +42,16 @@ updating_values_inDict = dictionaries_person["race"] = "celestial"
 the_pop_method = dictionaries_person.pop("petOwned")
 #removing values
 
-the_update_method = dictionaries_person.update({"address":"tree-a-dem"})
-
-the_copy_method = dictionaries_person.copy()  #copy dicts
-the_copy_method2 = dict(dictionaries_person)  #copy dicts 2
-
 the_popItem_method = dictionaries_person.popitem()
 #removes last item, some versions only
 
 del dictionaries_person["favoriteFood"]  #removes specified
 #del dictionaries_person  #deletes whole dicts
+
+the_update_method = dictionaries_person.update({"address":"tree-a-dem"})
+
+the_copy_method = dictionaries_person.copy()  #copy dicts
+the_copy_method2 = dict(dictionaries_person)  #copy dicts 2
 
 fromKeys_dict = ("key1","key2","key3")
 fromkeys_value = 0
@@ -83,8 +81,6 @@ the_length_method = len(dictionaries_person)
 print("The length is-->>>>>>>><<<", the_length_method)
 
 print(the_dict_constructor)
-
-print(dictionaries_person)
 
 print("####################################################################")
 
