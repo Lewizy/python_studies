@@ -19,3 +19,4 @@ print(random.randrange(0,90))
 
 str_some = "mississipianopollis"
 print(str_some[-8:-2]) #nopoll
+  
