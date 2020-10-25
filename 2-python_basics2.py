@@ -9,7 +9,7 @@ print(the_power_10th_on_35) #3500000.0
 
 range_method = range(0,4,2)
 for range_i in range_method:
-		print(range_i)
+   print(range_i)
 
 range_method2 = range(0,6);
 range_method3 = range(7)
