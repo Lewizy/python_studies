@@ -28,3 +28,7 @@ print(splitMethod.split(","))
 checkIfTxt = 'Check if the wapa is in text'
 checkFunc = "wapa" in checkIfTxt
 print(checkFunc)
+
+hello = "hello "
+world = "world"
+print(hello+world)
