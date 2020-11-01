@@ -27,8 +27,16 @@ print(splitMethod.split(","))
 
 checkIfTxt = 'Check if the wapa is in text'
 checkFunc = "wapa" in checkIfTxt
-print(checkFunc)
+print(checkFunc, ": The word wapa is in")
+
+check_if_not_in_text = "is the word poopy in this string"
+checkIf_not_func = "poopy" not in check_if_not_in_text
+print(checkIf_not_func,": The word poopy is not in")
 
 hello = "hello "
 world = "world"
 print(hello+world)
+
+mixedMethods = "   HelLoRZsS  "
+print(mixedMethods.lower().strip().split())
+
