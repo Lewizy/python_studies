@@ -40,3 +40,5 @@ print(hello+world)
 mixedMethods = "   HelLoRZsS  "
 print(mixedMethods.lower().strip().split())
 
+print("never ")
+
