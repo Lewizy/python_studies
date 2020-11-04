@@ -43,3 +43,6 @@ print(mixedMethods.lower().strip().split())
 print("never ")
 
 #some text erease 
+
+
+print("never ")
