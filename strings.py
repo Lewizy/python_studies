@@ -40,9 +40,6 @@ print(hello+world)
 mixedMethods = "   HelLoRZsS  "
 print(mixedMethods.lower().strip().split())
 
-print("never ")
-
-#some text erease 
-
-
-print("never ")
+arrow_str = "<-----"
+arrow_str1 = "----->"
+print(arrow_str+" + "+arrow_str1)
