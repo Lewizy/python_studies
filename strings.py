@@ -43,3 +43,6 @@ print(mixedMethods.lower().strip().split())
 arrow_str = "<-----"
 arrow_str1 = "----->"
 print(arrow_str+" + "+arrow_str1)
+
+if __name__ == '__main__':
+    print ("Hello, World!")
