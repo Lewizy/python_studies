@@ -30,6 +30,8 @@ person_1 = {
 }
 # use indent to read better
 print(json.dumps(person_1, indent=1))
-
 # use . and a space to separate objects, and a space, a = and a space to separate keys from their values:
 print(json.dumps(person_1, indent=1, separators=(".", "=")))
+# Use the sort_keys parameter to specify if the result should be sorted or not:
+print(json.dumps(person_1, indent=1, sort_keys=True))
+
